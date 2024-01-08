@@ -13,3 +13,10 @@
     height: 55px;
   }
 }
+
+@media (max-width: 380px) {
+  .footer__social-icon {
+    width: 45px;
+    height: 45px;
+  }
+}

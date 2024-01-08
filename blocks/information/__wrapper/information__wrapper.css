@@ -1,11 +1,11 @@
-.section__wrapper {
+.information__wrapper {
   margin-top: 50px;
   display: flex;
   justify-content: space-between;
 }
 
 @media (max-width: 1024px) {
-  .section__wrapper {
+  .information__wrapper {
     flex-direction: column-reverse;
   }
 }
