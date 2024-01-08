@@ -1,0 +1,8 @@
+.page {
+  font-family: "Work Sans", Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  max-width: 1440px;
+  margin: 40px auto;
+  font-size: 24px;
+  line-height: 32px;
+}

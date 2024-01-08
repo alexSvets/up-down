@@ -1,0 +1,15 @@
+.footer__payments-img:first-child {
+  width: 55px;
+  height: 17px;
+}
+
+.footer__payments-img:last-child {
+  width: 105px;
+  height: 30px;
+}
+
+.footer__payments-img:nth-child(2) {
+  width: 55px;
+  height: 30px;
+  margin: 0 28px;
+}

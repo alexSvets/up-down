@@ -1,0 +1,6 @@
+.section__text {
+  margin-bottom: 28px;
+}
+.section__text:last-child {
+  margin-bottom: 0;
+}
