@@ -1,0 +1,7 @@
+.header__button-text {
+  font-weight: 500;
+  color: #000000;
+}
+.header__button:hover .header__button-text {
+  color: #232222;
+}

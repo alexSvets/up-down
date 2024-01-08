@@ -4,3 +4,10 @@
 .section__text:last-child {
   margin-bottom: 0;
 }
+
+@media (max-width: 1024px) {
+  .section__text {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+}

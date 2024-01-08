@@ -1,0 +1,22 @@
+.header__button {
+  border-radius: 36px;
+  background-color: #ffffff;
+  margin-top: 20px;
+  padding: 16px 28px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease, opacity 0.3s ease;
+  border: 2px solid #000;
+  display: inline-block;
+}
+
+.header__button:hover {
+  background-color: #f0f0f0;
+  color: #000000;
+  opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+  .header__button {
+    padding: 10px 18px;
+  }
+}

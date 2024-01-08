@@ -1,3 +1,9 @@
 .section__description-name {
   font-weight: 500;
 }
+
+@media (max-width: 1024px) {
+  .section__description-name {
+    font-size: 20px;
+  }
+}

@@ -1,6 +1,26 @@
 .header__title {
+  margin: 0;
   font-weight: 700;
   font-size: 88px;
-  margin: 0 0 0 60px;
-  line-height: 104px;
+  line-height: 1.18;
+}
+
+@media (max-width: 1440px) {
+  .header__title {
+    font-size: 58px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .header__title {
+    font-size: 48px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header__title {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 38px;
+  }
 }

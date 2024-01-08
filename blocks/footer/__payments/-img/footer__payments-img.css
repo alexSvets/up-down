@@ -13,3 +13,19 @@
   height: 30px;
   margin: 0 28px;
 }
+
+@media (max-width: 1024px) {
+  .footer__payments-img:first-child {
+    width: 35px;
+    height: 10px;
+  }
+  .footer__payments-img:last-child {
+    width: 85px;
+    height: 20px;
+  }
+  .footer__payments-img:nth-child(2) {
+    width: 35px;
+    height: 20px;
+    margin: 0 0 0 15px;
+  }
+}

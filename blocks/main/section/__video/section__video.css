@@ -1,6 +1,14 @@
 .section__video {
-  width: 525px;
+  max-width: 525px;
+  width: 100%;
+  object-fit: cover;
   height: 640px;
   border-radius: 20px;
   margin-left: 40px;
+}
+
+@media (max-width: 1024px) {
+  .section__video {
+    margin: 0 auto 50px;
+  }
 }
